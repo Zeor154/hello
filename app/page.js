@@ -7,6 +7,10 @@ import AOS from 'aos';
 import { useState, useEffect } from 'react';
 import "aos/dist/aos.css"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faDiscord } from '@fortawesome/free-brands-svg-icons';
+
 export default function Home() {
   useEffect(() => {
     AOS.init();
@@ -19,7 +23,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
       <main className={styles.main}>
         <h1 className={'text-3xl'}>Hello, World👋</h1>
         <img className={'pt-4'} src="https://lanyard.cnrad.dev/api/909235850922037329"></img>
@@ -30,6 +33,13 @@ export default function Home() {
 
         <div className={'mx-auto w-[95%] bg-[#36393e] rounded my-4 p-4'} data-aos="fade-up">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, praesentium.</p>
+        </div>
+
+        {/* <hr className="my-8 border-gray-400 dark:border-gray-500"></hr> */}
+
+        <h1 className={'text-center text-2xl'}>Social media</h1>
+        <div className={'mx-auto w-[95%] bg-[#36393e] rounded my-4 p-4'} data-aos="fade-up">
+        <p className={'text-center'}><FontAwesomeIcon icon={faDiscord} /> Discord: <a href="https://discord.com/users/909235850922037329" className={'underline underline-offset-4'}>Eiotry#7958</a></p>
         </div>
         
       </div>
