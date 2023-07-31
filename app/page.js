@@ -32,7 +32,7 @@ export default function Home() {
         <h1 className={'text-center text-2xl'}>About</h1>
 
         <div className={'mx-auto w-[95%] bg-[#36393e] rounded my-4 p-4'} data-aos="fade-up">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, praesentium.</p>
+          <p>Newbie dev</p>
         </div>
 
         {/* <hr className="my-8 border-gray-400 dark:border-gray-500"></hr> */}
