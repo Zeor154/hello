@@ -1,7 +1,3 @@
-export default function Home() {
-    return (
-        <>
-            <h1>Melonx</h1>
-        </>
-    )
+export default function Melonx() {
+    return <div>Melonx</div>
 }

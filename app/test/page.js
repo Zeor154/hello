@@ -1,7 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { render } from 'react-dom'
+
 
 const allItems = [
     {
@@ -16,7 +13,7 @@ const allItems = [
     }
 ]
 
-export default function Home() {
+export default function Test() {
   return (
     <>
     {
