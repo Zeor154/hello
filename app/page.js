@@ -53,7 +53,8 @@ export default function Home() {
       </div>
 
       <footer className={'bg-zinc-800 text-center py-4'}>
-        <p>Made by <a href="https://github.com/zeor154/hello">Zeor154</a></p>
+        {/* <p>Made by </p> */}
+        <a href="https://github.com/zeor154/hello">Zeor154</a>
       </footer>
 
     </div>
