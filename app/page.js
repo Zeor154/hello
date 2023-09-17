@@ -45,10 +45,10 @@ export default function Home() {
 
         {/* <hr className="my-8 border-gray-400 dark:border-gray-500"></hr> */}
 
-        <h1 className={'text-center text-2xl'}>Social media</h1>
+        {/* <h1 className={'text-center text-2xl'}>Social media</h1>
         <div className={'mx-auto w-[95%] bg-[#36393e] rounded my-4 p-4'} data-aos="fade-up">
         <p className={'text-center'}><FontAwesomeIcon icon={faDiscord} /> Discord: <a href="https://discord.com/users/909235850922037329" className={'underline underline-offset-4'}>Eiotry#7958</a></p>
-        </div>
+        </div> */}
         
       </div>
 
