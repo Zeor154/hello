@@ -38,3 +38,7 @@ a {
     color-scheme: dark;
   }
 }
+
+h1, p, a {
+color:white;
+}
